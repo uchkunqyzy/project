@@ -1,0 +1,89 @@
+/* Жалпы стильдер */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Хабарламалар контейнері */
+.messages-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.message {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.message:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.message h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.message p strong {
+    font-weight: bold;
+    color: #660000;
+}
+
+.message small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Басты бетке қайту батырмасы */
+.header {
+    background-color: #660000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #660000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px auto;
+}
+
+.header a.button:hover {
+    background-color: #660000;
+}
+
+/* Хабарлама жоқ мәтін */
+.messages-container p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+}

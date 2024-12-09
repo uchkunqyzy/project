@@ -1,0 +1,128 @@
+/* Жалпы стильдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Тақырып */
+.header {
+    background-color: #660000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #ffffff;
+    color: #660000;
+    text-decoration: none;
+    border: 1px solid #660000;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #660000;
+    color: white;
+}
+
+/* Сәтті хабарлама */
+p {
+    text-align: center;
+}
+
+/* Жарнама контейнері */
+.ads-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Жеке жарнама */
+.ad {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ad h2 a {
+    text-decoration: none;
+    color: #660000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ad h2 a:hover {
+    text-decoration: underline;
+}
+
+.ad img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.ad p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Санат пен баға */
+.ad strong {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #660000;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
